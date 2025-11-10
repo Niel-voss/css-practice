@@ -1,0 +1,122 @@
+
+p {
+  font-family: Roboto, Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+  body{
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+.thumbnail {
+  width: 100%;
+  z-index: 200;
+}
+
+.video-preview {
+ 
+ display: inline-block;
+
+}
+
+.video-info-grid{
+  display: grid;
+  grid-template-columns: 50px 1fr; /* this will be for the channel proile picture*/
+  z-index: 1;
+}
+  
+
+
+.profile-pic{
+  width: 40px;  /* initially set to 100% so it can  fit with the space in the div container and other inline element in the div*/
+  vertical-align: top;
+  border-radius: 50px;
+}
+
+.video-title{
+  margin: 0;
+  font-size: 10px;
+  font-weight: 1000;
+  line-height: 15px;
+  margin-bottom: 12px;
+}
+.thumbnail-row{
+  margin-bottom: 12px;
+
+}
+.video-author, .video-stats{
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+}
+
+.video-author{
+  margin-bottom: 4px;
+}
+
+
+.video-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 15px;
+    padding-top: 80px; /* using margin would have made some part our page to be naked so we used pading so we can onl shift he items in the div and not the whole ite itself*/
+    padding-left: 50px;
+      background-color: rgb(251, 248, 248);
+}
+
+@media (max-width: 750px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 751px)  and(max-width: 999px){
+   .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   }
+}
+  @media (min-width: 1000px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+  }
+}
+.nail-row{
+  position: relative;
+}
+
+.video-time{
+  background-color: black;
+  color: white;
+  position: absolute;
+  font-family: 'Times New Roman', Times, serif;
+  bottom: 10px;
+  right: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-bottom: 2px;
+  padding-top: 4px;
+  border-radius: 2px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,176 @@
+
+						@font-face {
+							font-family: 'montserrat';
+							src: url('https://ighub.ng/wp-content/bcf-fonts/Montserrat/montserrat-200-normal0.woff2') format('woff2');
+							font-weight: 200;
+							font-style: normal0;
+						}
+						
+						@font-face {
+							font-family: 'montserrat';
+							src: url('https://ighub.ng/wp-content/bcf-fonts/Montserrat/montserrat-200-normal1.woff2') format('woff2');
+							font-weight: 200;
+							font-style: normal1;
+						}
+						
+						@font-face {
+							font-family: 'montserrat';
+							src: url('https://ighub.ng/wp-content/bcf-fonts/Montserrat/montserrat-200-normal2.woff2') format('woff2');
+							font-weight: 200;
+							font-style: normal2;
+						}
+						
+						@font-face {
+							font-family: 'montserrat';
+							src: url('https://ighub.ng/wp-content/bcf-fonts/Montserrat/montserrat-200-normal3.woff2') format('woff2');
+							font-weight: 200;
+							font-style: normal3;
+						}
+						
+						@font-face {
+							font-family: 'montserrat';
+							src: url('https://ighub.ng/wp-content/bcf-fonts/Montserrat/montserrat-200-normal4.woff2') format('woff2');
+							font-weight: 200;
+							font-style: normal4;
+						}
+						
+						@font-face {
+							font-family: 'montserrat';
+							src: url('https://ighub.ng/wp-content/bcf-fonts/Montserrat/montserrat-400-normal0.woff2') format('woff2');
+							font-weight: 400;
+							font-style: normal0;
+						}
+						
+						@font-face {
+							font-family: 'montserrat';
+							src: url('https://ighub.ng/wp-content/bcf-fonts/Montserrat/montserrat-400-normal1.woff2') format('woff2');
+							font-weight: 400;
+							font-style: normal1;
+						}
+						
+						@font-face {
+							font-family: 'montserrat';
+							src: url('https://ighub.ng/wp-content/bcf-fonts/Montserrat/montserrat-400-normal2.woff2') format('woff2');
+							font-weight: 400;
+							font-style: normal2;
+						}
+						
+						@font-face {
+							font-family: 'montserrat';
+							src: url('https://ighub.ng/wp-content/bcf-fonts/Montserrat/montserrat-400-normal3.woff2') format('woff2');
+							font-weight: 400;
+							font-style: normal3;
+						}
+						
+						@font-face {
+							font-family: 'montserrat';
+							src: url('https://ighub.ng/wp-content/bcf-fonts/Montserrat/montserrat-400-normal4.woff2') format('woff2');
+							font-weight: 400;
+							font-style: normal4;
+						}
+						
+						@font-face {
+							font-family: 'montserrat';
+							src: url('https://ighub.ng/wp-content/bcf-fonts/Montserrat/montserrat-500-normal0.woff2') format('woff2');
+							font-weight: 500;
+							font-style: normal0;
+						}
+						
+						@font-face {
+							font-family: 'montserrat';
+							src: url('https://ighub.ng/wp-content/bcf-fonts/Montserrat/montserrat-500-normal1.woff2') format('woff2');
+							font-weight: 500;
+							font-style: normal1;
+						}
+						
+						@font-face {
+							font-family: 'montserrat';
+							src: url('https://ighub.ng/wp-content/bcf-fonts/Montserrat/montserrat-500-normal2.woff2') format('woff2');
+							font-weight: 500;
+							font-style: normal2;
+						}
+						
+						@font-face {
+							font-family: 'montserrat';
+							src: url('https://ighub.ng/wp-content/bcf-fonts/Montserrat/montserrat-500-normal3.woff2') format('woff2');
+							font-weight: 500;
+							font-style: normal3;
+						}
+						
+						@font-face {
+							font-family: 'montserrat';
+							src: url('https://ighub.ng/wp-content/bcf-fonts/Montserrat/montserrat-500-normal4.woff2') format('woff2');
+							font-weight: 500;
+							font-style: normal4;
+						}
+						
+						@font-face {
+							font-family: 'montserrat';
+							src: url('https://ighub.ng/wp-content/bcf-fonts/Montserrat/montserrat-700-normal0.woff2') format('woff2');
+							font-weight: 700;
+							font-style: normal0;
+						}
+						
+						@font-face {
+							font-family: 'montserrat';
+							src: url('https://ighub.ng/wp-content/bcf-fonts/Montserrat/montserrat-700-normal1.woff2') format('woff2');
+							font-weight: 700;
+							font-style: normal1;
+						}
+						
+						@font-face {
+							font-family: 'montserrat';
+							src: url('https://ighub.ng/wp-content/bcf-fonts/Montserrat/montserrat-700-normal2.woff2') format('woff2');
+							font-weight: 700;
+							font-style: normal2;
+						}
+						
+						@font-face {
+							font-family: 'montserrat';
+							src: url('https://ighub.ng/wp-content/bcf-fonts/Montserrat/montserrat-700-normal3.woff2') format('woff2');
+							font-weight: 700;
+							font-style: normal3;
+						}
+						
+						@font-face {
+							font-family: 'montserrat';
+							src: url('https://ighub.ng/wp-content/bcf-fonts/Montserrat/montserrat-700-normal4.woff2') format('woff2');
+							font-weight: 700;
+							font-style: normal4;
+						}
+						
+						@font-face {
+							font-family: 'montserrat';
+							src: url('https://ighub.ng/wp-content/bcf-fonts/Montserrat/montserrat-800-normal0.woff2') format('woff2');
+							font-weight: 800;
+							font-style: normal0;
+						}
+						
+						@font-face {
+							font-family: 'montserrat';
+							src: url('https://ighub.ng/wp-content/bcf-fonts/Montserrat/montserrat-800-normal1.woff2') format('woff2');
+							font-weight: 800;
+							font-style: normal1;
+						}
+						
+						@font-face {
+							font-family: 'montserrat';
+							src: url('https://ighub.ng/wp-content/bcf-fonts/Montserrat/montserrat-800-normal2.woff2') format('woff2');
+							font-weight: 800;
+							font-style: normal2;
+						}
+						
+						@font-face {
+							font-family: 'montserrat';
+							src: url('https://ighub.ng/wp-content/bcf-fonts/Montserrat/montserrat-800-normal3.woff2') format('woff2');
+							font-weight: 800;
+							font-style: normal3;
+						}
+						
+						@font-face {
+							font-family: 'montserrat';
+							src: url('https://ighub.ng/wp-content/bcf-fonts/Montserrat/montserrat-800-normal4.woff2') format('woff2');
+							font-weight: 800;
+							font-style: normal4;
+						}
+						

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>prallax 003</title>
+
+    <style>
+
+      body{
+        padding-top: 1000px;
+        padding-bottom: 1000px;
+      }
+
+      .img-1, .img-2, .img-3, .img-4{
+        width: 500px;
+        display: block;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        transition: transform 0.4s ease-out;
+      }
+
+      html{
+        scroll-behavior: smooth 0.2s;
+        scroll-snap-type: y mandatory ;
+      }
+
+      body {
+        transition: transform 0.4s ease-out;
+      }
+
+      .text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+
+    <body>
+
+      <div class="images">
+
+        <img src="../images/thumbnail-3.webp" class="img-1">
+
+        <img src="../images/thumbnail-9.webp" class="img-2">
+
+         <img src="../images/thumbnail-4.webp" class="img-3">
+
+         <img src="../images/thumbnail-10.webp" class="img-4">
+
+
+      </div>
+
+      <div class="text">
+        Empowering Businesses, Training Talent, and Buildingthe Future
+We drive business growth with smart tech solutions,equip individuals within demand digital skills,and support startups inbuilding the future.
+      </div>
+
+
+      <script>
+
+
+
+
+window.addEventListener("scroll", () => {
+  const imgOne = document.querySelector('.img-1');
+  const speed = 0.09;
+  const y = window.scrollY * speed;
+  imgOne.style.transform = `translateX(${y}px) scale(${1 + y / 1000})`
+})
+
+window.addEventListener("scroll", () => {
+  const imgOne = document.querySelector('.img-2');
+  const speed = -0.09;
+  const y = window.scrollY * speed;
+  imgOne.style.transform = `translateX(${y}px) scale(${1 + y / 1000})`
+})
+
+window.addEventListener("scroll", () => {
+  const imgOne = document.querySelector('.img-3');
+  const speed = 0.09;
+  const y = window.scrollY * speed;
+  imgOne.style.transform = `translateX(${y}px) scale(${1 + y / 1000})`
+})
+
+window.addEventListener("scroll", () => {
+  const imgOne = document.querySelector('.img-4');
+  const speed = -0.09;
+  const y = window.scrollY * speed;
+  imgOne.style.transform = `translateX(${y}px) scale(${1 + y / 1000})`
+  smooth()
+})
+
+
+function smooth(){
+window.addEventListener('scroll', () => {
+  const scrollY = window.scrollY;
+  document.body.style.transform = `translateY(${-scrollY * 0.5}px)`;
+})
+}
+
+smooth()
+
+      </script>
+    </body>
+  </head>
+</html>

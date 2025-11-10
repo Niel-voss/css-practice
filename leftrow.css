@@ -1,0 +1,37 @@
+.rows{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 75px;
+  width: 65px;
+  background-color: white;
+}
+
+.side-icon{
+  width: 40px;
+  margin-left: -5px;
+  cursor: pointer;
+}
+
+.side-icon:hover{
+  background-color: lightgrey;
+}
+
+
+
+.icon-display{
+  display: grid;
+  grid-template-columns: 30px;
+  padding-left: 15px;
+  row-gap: 70px;
+  
+}
+
+.text{
+  font-size: 10px;
+  justify-content: center;
+
+}
+
+
+

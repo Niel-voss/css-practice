@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>test csss</title>
+    <style>
+
+      img {
+  opacity: 0.3; /* start slightly faded */
+  transition: transform 0.2s ease-out, opacity 0.2s ease-out;
+  will-change: transform, opacity; /* helps performance */
+}
+
+body{
+  padding-bottom: 1000px;
+}
+
+
+
+    </style>
+  </head>
+
+  <body>
+
+    <div class="images">
+    <img src="../images/thumbnail-8.webp">
+
+    <img src="../images/thumbnail-12.webp">
+
+    </div>
+
+
+    <script>
+    window.addEventListener("scroll", () => {
+  const imgs = document.querySelectorAll("images");
+  imgs.forEach(img => {
+    const rect = img.getBoundingClientRect(); // image’s position on screen
+    const windowHeight = window.innerHeight;
+    
+    // how visible the image is (0 = hidden, 1 = fully visible)
+    let visibleRatio = 1 - Math.abs(rect.top - windowHeight / 2) / (windowHeight / 1.2);
+    visibleRatio = Math.max(0, Math.min(1, visibleRatio)); // clamp between 0–1
+
+    // subtle movement
+    const speed = img.dataset.speed || 0.2;
+    const y = window.scrollY * speed;
+
+    // apply both movement & fade
+    img.style.transform = `translateX(${y}px) scale(${1 + y / 2000});
+    img.style.opacity = 0.3 + visibleRatio * 0.7; // fades from 0.3 → 1`
+  });
+});
+
+
+  </script>
+
+  </body>
+</html>

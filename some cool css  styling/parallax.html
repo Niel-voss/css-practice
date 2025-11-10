@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>paralax</head>
+  <style>
+
+
+
+      body{
+        padding-bottom: 1000px;
+      }
+
+  </style>
+
+  <body>
+
+    <div class="images">
+
+    <img src="../images/thumbnail-3.webp">
+
+
+
+    <img src="../images/thumbnail-4.webp" >
+
+    </div>
+    <script>
+      window.addEventListener("scroll", () => {
+  const imgs = document.querySelectorAll(".images");
+  imgs.forEach(img => {
+    const speed = img.dataset.speed || 0.5; // small movement factor
+    const y = window.scrollY * speed;
+    img.style.transform = `
+    translateX(${y}px) scale(${1 + y / 2000})
+    `;
+  });
+});
+    </script>
+  </body>
+</html>
